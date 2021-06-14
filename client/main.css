@@ -1,0 +1,78 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500&display=swap');
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+.banner-image {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    height: auto;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.button-click {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: grid;
+    place-items: center;
+    margin: 5px;
+    width: 266.5px;
+    /* padding: 20px; */
+    border: 8px solid;
+    place-items: center;
+    padding: 1rem;
+}
+
+.full {
+	border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+}
+
+.container .card img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.channel-input {
+    width: 250px;
+    padding: 0 10px;
+    height: 25px;
+    border: 1.5px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+button, p {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
